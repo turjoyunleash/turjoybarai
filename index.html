@@ -1,0 +1,1234 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5.0, viewport-fit=cover">
+  <title>Turjoy Barai | Chief Business Officer at Start Daily</title>
+  <meta name="description" content="Personal NFC business card of Turjoy Barai — Former VC-backed founder. Chief Business Officer at Start Daily. Turning bold ideas into scalable systems and predictable revenue.">
+  <meta name="theme-color" content="#090612">
+  <meta property="og:title" content="Turjoy Barai | Chief Business Officer at Start Daily">
+  <meta property="og:description" content="Former VC-backed founder. Turning bold ideas into scalable systems and predictable revenue.">
+  <meta property="og:image" content="./assets/Turjoy%20Barai.png">
+  <meta property="og:type" content="profile">
+  <meta name="twitter:card" content="summary_large_image">
+  <link rel="icon" type="image/png" href="./assets/SD%20Logo%20Mark.png">
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500;600;700&family=Plus+Jakarta+Sans:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+
+  <!-- Tailwind CSS CDN -->
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            sd: {
+              base: '#090612',
+              surface: '#120A24',
+              surface2: '#180F30',
+              plum: '#391C60',
+              violet: '#8F54DE',
+              purple: '#AB50E1',
+              magenta: '#C549E5',
+              coral: '#FF436C',
+              salmon: '#FF6C59',
+              orange: '#FE8840',
+            }
+          },
+          fontFamily: {
+            display: ['"Plus Jakarta Sans"', 'sans-serif'],
+            body: ['"Inter"', 'sans-serif'],
+            mono: ['"JetBrains Mono"', 'monospace'],
+          },
+          boxShadow: {
+            'glow-sd': '0 0 35px -5px rgba(255, 67, 108, 0.35), 0 0 15px -2px rgba(143, 84, 222, 0.4)',
+            'glow-subtle': '0 10px 40px -10px rgba(143, 84, 222, 0.25)',
+            'glass': '0 8px 32px 0 rgba(0, 0, 0, 0.37), inset 0 1px 0 0 rgba(255, 255, 255, 0.08)',
+          }
+        }
+      }
+    }
+  </script>
+
+  <style>
+    /* Start Daily signature gradient */
+    .sd-gradient-text {
+      background: linear-gradient(135deg, #AB50E1 0%, #C549E5 25%, #FF436C 60%, #FE8840 100%);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+    }
+    
+    .sd-gradient-bg {
+      background: linear-gradient(135deg, #8F54DE 0%, #C549E5 30%, #FF436C 70%, #FE8840 100%);
+    }
+
+    .sd-gradient-border {
+      position: relative;
+    }
+    .sd-gradient-border::before {
+      content: '';
+      position: absolute;
+      inset: 0;
+      border-radius: inherit;
+      padding: 1px;
+      background: linear-gradient(135deg, rgba(143, 84, 222, 0.6), rgba(255, 67, 108, 0.4), rgba(254, 136, 64, 0.2));
+      -webkit-mask: linear-gradient(#fff 0 0) content-box, linear-gradient(#fff 0 0);
+      -webkit-mask-composite: xor;
+      mask-composite: exclude;
+      pointer-events: none;
+    }
+
+
+
+    /* Floating bobbing keyframes */
+    @keyframes gentleFloat {
+      0%, 100% { transform: translateY(0px) rotate(0deg); }
+      50% { transform: translateY(-8px) rotate(1.5deg); }
+    }
+    .animate-float {
+      animation: gentleFloat 5s ease-in-out infinite;
+    }
+
+    /* Mobile safe area padding */
+    .pb-safe {
+      padding-bottom: env(safe-area-inset-bottom, 1rem);
+    }
+
+    /* Custom scrollbar */
+    ::-webkit-scrollbar {
+      width: 6px;
+    }
+    ::-webkit-scrollbar-track {
+      background: #090612;
+    }
+    ::-webkit-scrollbar-thumb {
+      background: rgba(143, 84, 222, 0.3);
+      border-radius: 9999px;
+    }
+    ::-webkit-scrollbar-thumb:hover {
+      background: rgba(255, 67, 108, 0.5);
+    }
+  </style>
+</head>
+
+<body class="bg-[#090612] text-slate-100 font-body antialiased selection:bg-[#FF436C]/30 selection:text-white min-h-screen overflow-x-hidden relative">
+
+  <!-- =========================================================================
+       NAVBAR
+       ========================================================================= -->
+  <header class="fixed top-0 left-0 right-0 z-50 backdrop-blur-xl bg-[#090612]/70 border-b border-white/[0.06] transition-all duration-300">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 h-16 flex items-center justify-between">
+      <!-- Start Daily Logo (links to https://startdaily.xyz/) -->
+      <a href="https://startdaily.xyz/" target="_blank" rel="noopener noreferrer" 
+         class="flex items-center group focus:outline-none focus:ring-2 focus:ring-[#C549E5] rounded-lg py-1 px-1 -ml-1 transition-transform hover:scale-[1.02]">
+        <img src="./assets/SD Logo 1.png" alt="Start Daily" class="h-7 sm:h-8 w-auto object-contain transition-opacity duration-300 group-hover:opacity-90">
+      </a>
+
+      <!-- Navbar Actions: Connect Button Only -->
+      <div class="flex items-center">
+        <!-- Direct Connect CTA Anchor -->
+        <a href="#connect" 
+           class="inline-flex items-center justify-center px-4 py-1.5 rounded-full text-xs font-semibold bg-white/[0.07] hover:bg-white/[0.12] border border-white/[0.12] hover:border-white/20 text-white transition-all hover:scale-105 active:scale-95">
+          Connect
+        </a>
+      </div>
+    </div>
+  </header>
+
+  <!-- =========================================================================
+       HERO STAGE (100svh Interactive Canvas + Zero-Scroll Mobile NFC Experience)
+       ========================================================================= -->
+  <section id="hero" class="relative w-full h-[100svh] min-h-[600px] max-h-[1100px] overflow-hidden flex flex-col justify-between pt-16">
+    
+    <!-- Background Canvas: Volumetric Smoke + Water Reflection + Ripple Physics -->
+    <canvas id="hero-canvas" class="absolute inset-0 w-full h-full block z-0 cursor-pointer"></canvas>
+
+    <!-- Overlay Mist Vignette for seamless scroll dissolve into section 01 -->
+    <div id="hero-bottom-dissolve" class="absolute bottom-0 inset-x-0 h-32 bg-gradient-to-t from-[#090612] via-[#090612]/80 to-transparent pointer-events-none z-10"></div>
+
+    <!-- Desktop & Mobile Content Container -->
+    <div class="relative z-20 w-full h-full max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 flex flex-col justify-start pointer-events-none pb-4 lg:pb-12">
+      
+      <!-- Top Eyebrow, H1, Subhead, CTA Buttons & Proof Bullets (Immediately Visible on Load) -->
+      <div id="hero-top-header" class="pt-2 sm:pt-6 pointer-events-auto max-w-xl">
+        <!-- Eyebrow Link to Start Daily -->
+        <a href="https://startdaily.xyz/" target="_blank" rel="noopener noreferrer" 
+           class="inline-flex items-center gap-2 px-3 py-1.5 rounded-full bg-[#180F30]/80 border border-[#8F54DE]/30 hover:border-[#FF436C]/50 backdrop-blur-md mb-2.5 sm:mb-3 shadow-lg group transition-all">
+          <span class="w-2 h-2 rounded-full bg-emerald-400 animate-pulse"></span>
+          <span class="text-[11px] sm:text-xs font-mono font-medium tracking-wide text-purple-200 uppercase">
+            Co-Founder &amp; Chief Business Officer · Start Daily
+          </span>
+          <svg class="w-3 h-3 text-purple-400 group-hover:text-[#FF6C59] group-hover:translate-x-0.5 transition-all" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14"/>
+          </svg>
+        </a>
+        
+        <!-- Turjoy Barai Display Name -->
+        <h1 class="font-display font-extrabold text-3xl sm:text-5xl lg:text-7xl tracking-tight text-white leading-none">
+          Turjoy <span class="sd-gradient-text">Barai</span>
+        </h1>
+
+        <!-- Crisp Subheadline tying experience directly to Start Daily -->
+        <p class="mt-2.5 sm:mt-4 text-xs sm:text-base lg:text-lg text-slate-300 font-normal leading-relaxed max-w-lg">
+          Co-Founder &amp; CBO at Start Daily. Former VC-backed founder turning bold ideas into scalable systems and predictable revenue.
+        </p>
+
+        <!-- Primary CTA Buttons (Immediate & Thumb-Reachable on Load) -->
+        <div class="flex items-center gap-2 sm:gap-4 mt-3.5 sm:mt-6">
+          <a href="https://wa.me/8801704672695?text=Hi%20Turjoy%2C%20great%20connecting%20with%20you!" 
+             target="_blank" rel="noopener noreferrer"
+             class="sd-gradient-bg px-4 sm:px-6 py-2.5 sm:py-3.5 rounded-xl font-display font-bold text-white text-xs sm:text-sm shadow-glow-sd hover:opacity-95 hover:scale-[1.02] active:scale-95 transition-all flex items-center gap-1.5 sm:gap-2.5">
+            <svg class="w-4 h-4 sm:w-5 sm:h-5 fill-current shrink-0" viewBox="0 0 24 24">
+              <path d="M12.031 6.172c-3.181 0-5.767 2.586-5.768 5.766-.001 1.298.38 2.27 1.019 3.287l-.711 2.598 2.664-.699c.974.53 1.815.82 2.796.821h.005c3.18 0 5.767-2.586 5.768-5.766.001-3.18-2.585-5.767-5.773-5.773zm7.534 5.766c-.002 4.152-3.378 7.527-7.535 7.527-1.258 0-2.428-.316-3.473-.872l-4.557 1.195 1.218-4.444c-.663-1.121-1.024-2.39-1.023-3.406.002-4.153 3.378-7.528 7.536-7.528 4.156 0 7.534 3.375 7.534 7.528z"/>
+            </svg>
+            <span>WhatsApp Me</span>
+          </a>
+
+          <button onclick="downloadVCard()" 
+                  class="px-3.5 sm:px-5 py-2.5 sm:py-3.5 rounded-xl font-display font-semibold text-white text-xs sm:text-sm bg-white/[0.08] hover:bg-white/[0.14] border border-white/[0.15] backdrop-blur-md shadow-glass hover:scale-[1.02] active:scale-95 transition-all flex items-center gap-1.5 sm:gap-2 cursor-pointer">
+            <svg class="w-4 h-4 text-purple-300 shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 16v1a3 3 0 003 3h10a3 3 0 003-3v-1m-4-4l-4 4m0 0l-4-4m4 4V4"/>
+            </svg>
+            <span>Save Contact</span>
+          </button>
+
+          <a href="https://www.linkedin.com/in/turjoybarai/" 
+             target="_blank" rel="noopener noreferrer"
+             class="px-3 sm:px-4 py-2.5 sm:py-3.5 rounded-xl font-display font-medium text-slate-300 hover:text-white text-xs sm:text-sm bg-white/[0.05] hover:bg-white/[0.1] border border-white/[0.1] backdrop-blur-md transition-all flex items-center gap-1.5">
+            <svg class="w-4 h-4 fill-current text-[#0A66C2] shrink-0" viewBox="0 0 24 24">
+              <path d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z"/>
+            </svg>
+            <span class="hidden sm:inline">LinkedIn</span>
+            <span class="sm:hidden">IN</span>
+          </a>
+        </div>
+
+        <!-- 3 Proof Bullets (Cleanly displayed on BOTH mobile and desktop) -->
+        <div class="flex flex-wrap items-center gap-x-4 gap-y-1.5 mt-3.5 sm:mt-6 pt-3 sm:pt-4 border-t border-white/[0.08] text-[10px] sm:text-xs font-mono text-purple-300/80">
+          <div class="flex items-center gap-1.5">
+            <span class="w-1.5 h-1.5 rounded-full bg-[#FF436C]"></span>
+            <span>100+ Shipped Projects</span>
+          </div>
+          <div class="flex items-center gap-1.5">
+            <span class="w-1.5 h-1.5 rounded-full bg-[#8F54DE]"></span>
+            <span>11+ Global Markets</span>
+          </div>
+          <div class="flex items-center gap-1.5">
+            <span class="w-1.5 h-1.5 rounded-full bg-[#FE8840]"></span>
+            <span>VC-Backed Founder</span>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- =========================================================================
+       SECTION 01: PROFILE (Systems. Growth. Execution.)
+       ========================================================================= -->
+  <section id="profile" class="relative z-20 py-20 lg:py-32 border-t border-white/[0.06] bg-[#090612]/90">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      
+      <div class="grid grid-cols-1 lg:grid-cols-12 gap-12 items-center">
+        <!-- Left: Narrative -->
+        <div class="lg:col-span-7">
+          <div class="flex items-center gap-3 mb-4">
+            <span class="text-xs font-mono font-bold tracking-widest text-[#FF436C] uppercase">01 // PROFILE</span>
+            <div class="h-px w-12 bg-gradient-to-r from-[#FF436C] to-transparent"></div>
+          </div>
+          
+          <h2 class="font-display font-extrabold text-3xl sm:text-4xl lg:text-5xl tracking-tight text-white mb-6">
+            Systems. Growth. <span class="sd-gradient-text">Execution.</span>
+          </h2>
+
+          <div class="space-y-5 text-slate-300 text-base sm:text-lg leading-relaxed font-normal">
+            <p>
+              I build and scale commercial engines across software, e-commerce, and digital growth.
+            </p>
+            <p>
+              Today, as <strong class="text-white font-semibold">Co-Founder &amp; Chief Business Officer</strong> at <strong class="text-white font-semibold">Start Daily</strong>, I lead international business development, client strategy, and commercial systems—where our team has shipped <span class="text-transparent bg-gradient-to-r from-purple-300 to-[#FF6C59] bg-clip-text font-bold">100+ projects</span> across <span class="text-transparent bg-gradient-to-r from-[#FF6C59] to-[#FE8840] bg-clip-text font-bold">11+ countries</span> with a <strong class="text-white font-semibold">90%+ satisfaction rate</strong>.
+            </p>
+            <p class="text-slate-400 text-sm sm:text-base">
+              Previously, I co-founded and scaled <strong class="text-white font-medium">LOOX</strong> (a VC-backed live shopping marketplace) as COO, and built <strong class="text-white font-medium">Unleash Career</strong>—grounded in 5+ years across growth, operations, and finance.
+            </p>
+          </div>
+        </div>
+
+        <!-- Right: Sleek Dark-Glass Start Daily · Studio Impact Architectural Card -->
+        <div class="lg:col-span-5">
+          <div class="relative group">
+            <!-- Ambient Violet/Coral Glow -->
+            <div class="absolute -inset-1 bg-gradient-to-r from-[#8F54DE]/30 via-[#FF436C]/30 to-[#FE8840]/30 rounded-3xl blur-xl opacity-60 group-hover:opacity-100 transition duration-500"></div>
+            
+            <!-- Dark Obsidian-Violet Glass Card Container -->
+            <div class="relative bg-[#120A24]/90 backdrop-blur-2xl rounded-3xl p-6 sm:p-8 shadow-2xl border border-white/10 sd-gradient-border overflow-hidden">
+              
+              <!-- Subtle Faint SD Logo Mark Watermark in Background -->
+              <div class="absolute -right-12 -bottom-12 w-64 h-64 opacity-[0.06] group-hover:opacity-[0.12] transition-opacity duration-700 pointer-events-none transform rotate-12">
+                <img src="./assets/SD Logo Mark.png" alt="" class="w-full h-full object-contain">
+              </div>
+
+              <!-- Header: Studio Identity & Live Verification Pill -->
+              <div class="relative z-10 flex items-center justify-between mb-6 pb-4 border-b border-white/[0.08]">
+                <a href="https://startdaily.xyz/" target="_blank" rel="noopener noreferrer" class="flex items-center gap-3 group/logo">
+                  <div class="flex flex-col gap-1">
+                    <div class="flex items-center gap-2">
+                      <img src="./assets/SD Logo 1.png" alt="Start Daily" class="h-[26px] sm:h-[28px] w-auto object-contain transition-opacity duration-300 group-hover/logo:opacity-90">
+                      <span class="text-[9px] font-mono px-1.5 py-0.5 rounded bg-purple-500/20 text-purple-300 border border-purple-500/30">STUDIO</span>
+                    </div>
+                    <div class="text-[10px] font-mono text-slate-400">startdaily.xyz</div>
+                  </div>
+                </a>
+
+                <div class="inline-flex items-center gap-1.5 px-2.5 py-1 rounded-full bg-emerald-500/10 border border-emerald-500/30 text-[10px] font-mono text-emerald-400">
+                  <span class="w-1.5 h-1.5 rounded-full bg-emerald-400 animate-pulse"></span>
+                  <span>90%+ Satisfaction</span>
+                </div>
+              </div>
+
+              <!-- 3 Core Architectural Pillars -->
+              <div class="relative z-10 space-y-3 mb-6">
+                <!-- Pillar 1 -->
+                <div class="p-3.5 rounded-xl bg-white/[0.03] hover:bg-white/[0.06] border border-white/[0.06] hover:border-[#8F54DE]/40 transition-all">
+                  <div class="flex items-center justify-between mb-1">
+                    <span class="text-xs font-mono font-bold text-[#8F54DE]">01 BUILD</span>
+                    <span class="text-[10px] font-mono text-slate-500 uppercase tracking-wider">Engineering</span>
+                  </div>
+                  <div class="font-display font-bold text-white text-sm">Systems, Custom Software &amp; AI</div>
+                  <p class="text-xs text-slate-400 mt-0.5 leading-snug">Scalable web platforms, modern cloud apps, and custom operational architecture.</p>
+                </div>
+
+                <!-- Pillar 2 -->
+                <div class="p-3.5 rounded-xl bg-white/[0.03] hover:bg-white/[0.06] border border-white/[0.06] hover:border-[#FF436C]/40 transition-all">
+                  <div class="flex items-center justify-between mb-1">
+                    <span class="text-xs font-mono font-bold text-[#FF436C]">02 MARKET</span>
+                    <span class="text-[10px] font-mono text-slate-500 uppercase tracking-wider">Acquisition</span>
+                  </div>
+                  <div class="font-display font-bold text-white text-sm">Performance Growth &amp; Revenue Strategy</div>
+                  <p class="text-xs text-slate-400 mt-0.5 leading-snug">Cross-border media buying, CRO, and repeatable enterprise customer acquisition.</p>
+                </div>
+
+                <!-- Pillar 3 -->
+                <div class="p-3.5 rounded-xl bg-white/[0.03] hover:bg-white/[0.06] border border-white/[0.06] hover:border-[#FE8840]/40 transition-all">
+                  <div class="flex items-center justify-between mb-1">
+                    <span class="text-xs font-mono font-bold text-[#FE8840]">03 AUTOMATE</span>
+                    <span class="text-[10px] font-mono text-slate-500 uppercase tracking-wider">Efficiency</span>
+                  </div>
+                  <div class="font-display font-bold text-white text-sm">Operations &amp; E-Commerce Automation</div>
+                  <p class="text-xs text-slate-400 mt-0.5 leading-snug">End-to-end ERP integrations, intelligent bots, and frictionless business execution.</p>
+                </div>
+              </div>
+
+              <!-- Footer Proof Bar -->
+              <div class="relative z-10 pt-4 border-t border-white/[0.08] flex items-center justify-between text-xs font-mono text-slate-400">
+                <div class="flex items-center gap-3">
+                  <span class="text-white font-bold">100+</span> Shipped
+                  <span class="text-slate-600">·</span>
+                  <span class="text-white font-bold">11+</span> Countries
+                </div>
+                <a href="https://startdaily.xyz/" target="_blank" rel="noopener noreferrer" class="text-purple-300 hover:text-white flex items-center gap-1 group/link">
+                  <span>Visit Studio</span>
+                  <span class="group-hover/link:translate-x-0.5 transition-transform">→</span>
+                </a>
+              </div>
+
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+
+  <!-- =========================================================================
+       SECTION 02: TRACK RECORD (4-Card Proof Grid)
+       ========================================================================= -->
+  <section id="track-record" class="relative z-20 py-20 lg:py-28 bg-[#120A24]/60 border-t border-white/[0.06]">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      
+      <div class="flex flex-col md:flex-row md:items-end justify-between mb-12">
+        <div>
+          <span class="text-xs font-mono font-bold tracking-widest text-[#C549E5] uppercase">02 // TRACK RECORD</span>
+          <h2 class="font-display font-extrabold text-3xl sm:text-4xl text-white mt-2">
+            Battle-Tested <span class="sd-gradient-text">Proof</span>
+          </h2>
+        </div>
+        <p class="text-slate-400 text-sm max-w-md mt-2 md:mt-0 font-normal">
+          A consistent track record of venture building, commercial negotiation, and global execution.
+        </p>
+      </div>
+
+      <!-- 4-Card Proof Grid -->
+      <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
+        
+        <!-- Card 1 -->
+        <div class="relative group bg-[#180F30]/60 hover:bg-[#180F30]/90 backdrop-blur-md p-6 rounded-2xl border border-white/[0.08] hover:border-[#8F54DE]/50 transition-all duration-300 hover:-translate-y-1 shadow-glass">
+          <div class="flex items-center justify-between mb-4">
+            <span class="text-xs font-mono text-purple-400">01</span>
+            <span class="w-2 h-2 rounded-full bg-[#8F54DE]"></span>
+          </div>
+          <h3 class="font-display font-bold text-xl text-white mb-1.5 group-hover:text-purple-200 transition-colors">
+            Co-Founder &amp; CBO · Start Daily
+          </h3>
+          <p class="text-sm text-slate-300 font-medium italic">
+            Global BD, Systems &amp; Growth
+          </p>
+          <div class="mt-4 pt-4 border-t border-white/[0.06] text-xs font-mono text-slate-400">
+            Client Strategy &amp; Revenue Scale
+          </div>
+        </div>
+
+        <!-- Card 2 -->
+        <div class="relative group bg-[#180F30]/60 hover:bg-[#180F30]/90 backdrop-blur-md p-6 rounded-2xl border border-white/[0.08] hover:border-[#C549E5]/50 transition-all duration-300 hover:-translate-y-1 shadow-glass">
+          <div class="flex items-center justify-between mb-4">
+            <span class="text-xs font-mono text-pink-400">02</span>
+            <span class="w-2 h-2 rounded-full bg-[#C549E5]"></span>
+          </div>
+          <h3 class="font-display font-bold text-xl text-white mb-1.5 group-hover:text-pink-200 transition-colors">
+            VC-Backed Founder
+          </h3>
+          <p class="text-sm text-slate-300 font-medium italic">
+            Co-Founder &amp; COO, LOOX (VC-backed)
+          </p>
+          <div class="mt-4 pt-4 border-t border-white/[0.06] text-xs font-mono text-slate-400">
+            VC-Backed Live Shopping Marketplace
+          </div>
+        </div>
+
+        <!-- Card 3 -->
+        <div class="relative group bg-[#180F30]/60 hover:bg-[#180F30]/90 backdrop-blur-md p-6 rounded-2xl border border-white/[0.08] hover:border-[#FF436C]/50 transition-all duration-300 hover:-translate-y-1 shadow-glass">
+          <div class="flex items-center justify-between mb-4">
+            <span class="text-xs font-mono text-rose-400">03</span>
+            <span class="w-2 h-2 rounded-full bg-[#FF436C]"></span>
+          </div>
+          <h3 class="font-display font-bold text-xl text-white mb-1.5 group-hover:text-rose-200 transition-colors">
+            100+ Projects · 11+ Countries
+          </h3>
+          <p class="text-sm text-slate-300 font-medium italic">
+            90%+ Client Satisfaction Rate
+          </p>
+          <div class="mt-4 pt-4 border-t border-white/[0.06] text-xs font-mono text-slate-400">
+            Global Digital Delivery
+          </div>
+        </div>
+
+        <!-- Card 4 -->
+        <div class="relative group bg-[#180F30]/60 hover:bg-[#180F30]/90 backdrop-blur-md p-6 rounded-2xl border border-white/[0.08] hover:border-[#FE8840]/50 transition-all duration-300 hover:-translate-y-1 shadow-glass">
+          <div class="flex items-center justify-between mb-4">
+            <span class="text-xs font-mono text-amber-400">04</span>
+            <span class="w-2 h-2 rounded-full bg-[#FE8840]"></span>
+          </div>
+          <h3 class="font-display font-bold text-xl text-white mb-1.5 group-hover:text-amber-200 transition-colors">
+            Top 100 Startups BD
+          </h3>
+          <p class="text-sm text-slate-300 font-medium italic">
+            BBA (Magna Cum Laude), NSU
+          </p>
+          <div class="mt-4 pt-4 border-t border-white/[0.06] text-xs font-mono text-slate-400">
+            Academic &amp; Venture Honors
+          </div>
+        </div>
+
+      </div>
+
+    </div>
+  </section>
+
+
+  <!-- =========================================================================
+       SECTION 03: FOCUS (3 Bento Pillars)
+       ========================================================================= -->
+  <section id="focus" class="relative z-20 py-20 lg:py-28 bg-[#090612] border-t border-white/[0.06]">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      
+      <div class="max-w-2xl mb-12">
+        <span class="text-xs font-mono font-bold tracking-widest text-[#FE8840] uppercase">03 // CORE FOCUS</span>
+        <h2 class="font-display font-extrabold text-3xl sm:text-4xl text-white mt-2">
+          Where I Move the <span class="sd-gradient-text">Needle</span>
+        </h2>
+        <p class="text-slate-400 text-base mt-3">
+          High-leverage domains where I engineer sustainable scale, operational rigor, and bottom-line outcomes.
+        </p>
+      </div>
+
+      <!-- 3 Bento Pillars -->
+      <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+        
+        <!-- Pillar 01 -->
+        <div class="relative group bg-gradient-to-b from-[#180F30]/80 to-[#120A24]/90 p-8 rounded-3xl border border-white/[0.08] hover:border-[#8F54DE]/50 transition-all duration-300 shadow-glass flex flex-col justify-between">
+          <div>
+            <div class="w-12 h-12 rounded-2xl bg-[#8F54DE]/10 border border-[#8F54DE]/30 flex items-center justify-center text-sm font-mono font-bold text-[#8F54DE] mb-6">
+              01
+            </div>
+            <h3 class="font-display font-bold text-2xl text-white mb-3">
+              Growth &amp; Acquisition
+            </h3>
+            <p class="text-slate-300 text-sm leading-relaxed mb-6">
+              International client acquisition, performance media buying, and full-funnel revenue strategy.
+            </p>
+          </div>
+          <ul class="space-y-2.5 text-xs font-mono text-slate-400 border-t border-white/[0.06] pt-6">
+            <li class="flex items-center gap-2">
+              <span class="text-[#8F54DE]">→</span> Cross-border enterprise client acquisition
+            </li>
+            <li class="flex items-center gap-2">
+              <span class="text-[#8F54DE]">→</span> Performance media &amp; CAC optimization
+            </li>
+            <li class="flex items-center gap-2">
+              <span class="text-[#8F54DE]">→</span> Full-funnel pipeline acceleration
+            </li>
+          </ul>
+        </div>
+
+        <!-- Pillar 02 -->
+        <div class="relative group bg-gradient-to-b from-[#180F30]/80 to-[#120A24]/90 p-8 rounded-3xl border border-white/[0.08] hover:border-[#FF436C]/50 transition-all duration-300 shadow-glass flex flex-col justify-between">
+          <div>
+            <div class="w-12 h-12 rounded-2xl bg-[#FF436C]/10 border border-[#FF436C]/30 flex items-center justify-center text-sm font-mono font-bold text-[#FF436C] mb-6">
+              02
+            </div>
+            <h3 class="font-display font-bold text-2xl text-white mb-3">
+              Systems &amp; Operations
+            </h3>
+            <p class="text-slate-300 text-sm leading-relaxed mb-6">
+              E-commerce automation, ERP/custom software scoping, and end-to-end operational execution.
+            </p>
+          </div>
+          <ul class="space-y-2.5 text-xs font-mono text-slate-400 border-t border-white/[0.06] pt-6">
+            <li class="flex items-center gap-2">
+              <span class="text-[#FF436C]">→</span> Custom ERP &amp; operational architecture
+            </li>
+            <li class="flex items-center gap-2">
+              <span class="text-[#FF436C]">→</span> E-commerce infrastructure automation
+            </li>
+            <li class="flex items-center gap-2">
+              <span class="text-[#FF436C]">→</span> Agile delivery across multidisciplinary teams
+            </li>
+          </ul>
+        </div>
+
+        <!-- Pillar 03 -->
+        <div class="relative group bg-gradient-to-b from-[#180F30]/80 to-[#120A24]/90 p-8 rounded-3xl border border-white/[0.08] hover:border-[#FE8840]/50 transition-all duration-300 shadow-glass flex flex-col justify-between">
+          <div>
+            <div class="w-12 h-12 rounded-2xl bg-[#FE8840]/10 border border-[#FE8840]/30 flex items-center justify-center text-sm font-mono font-bold text-[#FE8840] mb-6">
+              03
+            </div>
+            <h3 class="font-display font-bold text-2xl text-white mb-3">
+              Strategic Partnerships
+            </h3>
+            <p class="text-slate-300 text-sm leading-relaxed mb-6">
+              Venture building, commercial negotiations, and closing high-trust B2B deals.
+            </p>
+          </div>
+          <ul class="space-y-2.5 text-xs font-mono text-slate-400 border-t border-white/[0.06] pt-6">
+            <li class="flex items-center gap-2">
+              <span class="text-[#FE8840]">→</span> High-trust enterprise contract negotiation
+            </li>
+            <li class="flex items-center gap-2">
+              <span class="text-[#FE8840]">→</span> Venture co-creation &amp; syndication
+            </li>
+            <li class="flex items-center gap-2">
+              <span class="text-[#FE8840]">→</span> Strategic ecosystem &amp; investor relations
+            </li>
+          </ul>
+        </div>
+
+      </div>
+
+    </div>
+  </section>
+
+
+  <!-- =========================================================================
+       SECTION 04: CONNECT (Direct Access & Instant Actions)
+       ========================================================================= -->
+  <section id="connect" class="relative z-20 py-24 lg:py-32 bg-[#120A24]/80 border-t border-white/[0.06]">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      
+      <div class="max-w-3xl mx-auto text-center mb-16">
+        <span class="text-xs font-mono font-bold tracking-widest text-[#FF436C] uppercase">04 // DIRECT ACCESS</span>
+        <h2 class="font-display font-extrabold text-3xl sm:text-5xl text-white mt-3">
+          Let’s build something <span class="sd-gradient-text">lasting.</span>
+        </h2>
+        <p class="text-slate-300 text-base sm:text-lg mt-4 font-normal leading-relaxed">
+          Whether you want to build a system, scale growth, or explore a partnership—reach out directly.
+        </p>
+      </div>
+
+      <!-- 4 Direct Channels Grid -->
+      <div class="max-w-4xl mx-auto grid grid-cols-1 sm:grid-cols-2 gap-4 sm:gap-6">
+        
+        <!-- 1. WhatsApp Direct Message -->
+        <a href="https://wa.me/8801704672695?text=Hi%20Turjoy%2C%20great%20connecting%20with%20you!" 
+           target="_blank" rel="noopener noreferrer"
+           class="group bg-[#180F30]/80 hover:bg-[#180F30] p-6 rounded-2xl border border-white/[0.08] hover:border-[#25D366]/50 transition-all duration-300 shadow-glass flex items-center justify-between">
+          <div class="flex items-center gap-4">
+            <div class="w-12 h-12 rounded-xl bg-[#25D366]/10 border border-[#25D366]/30 flex items-center justify-center text-[#25D366] group-hover:scale-110 transition-transform">
+              <svg class="w-6 h-6 fill-current" viewBox="0 0 24 24">
+                <path d="M12.031 6.172c-3.181 0-5.767 2.586-5.768 5.766-.001 1.298.38 2.27 1.019 3.287l-.711 2.598 2.664-.699c.974.53 1.815.82 2.796.821h.005c3.18 0 5.767-2.586 5.768-5.766.001-3.18-2.585-5.767-5.773-5.773zm7.534 5.766c-.002 4.152-3.378 7.527-7.535 7.527-1.258 0-2.428-.316-3.473-.872l-4.557 1.195 1.218-4.444c-.663-1.121-1.024-2.39-1.023-3.406.002-4.153 3.378-7.528 7.536-7.528 4.156 0 7.534 3.375 7.534 7.528z"/>
+              </svg>
+            </div>
+            <div>
+              <div class="text-xs font-mono text-emerald-400">Instant Chat</div>
+              <div class="font-display font-bold text-white text-base">+880 1704-672695</div>
+            </div>
+          </div>
+          <span class="text-slate-400 group-hover:text-white group-hover:translate-x-1 transition-all">→</span>
+        </a>
+
+        <!-- 2. LinkedIn Profile -->
+        <a href="https://www.linkedin.com/in/turjoybarai/" 
+           target="_blank" rel="noopener noreferrer"
+           class="group bg-[#180F30]/80 hover:bg-[#180F30] p-6 rounded-2xl border border-white/[0.08] hover:border-[#0A66C2]/50 transition-all duration-300 shadow-glass flex items-center justify-between">
+          <div class="flex items-center gap-4">
+            <div class="w-12 h-12 rounded-xl bg-[#0A66C2]/10 border border-[#0A66C2]/30 flex items-center justify-center text-[#0A66C2] group-hover:scale-110 transition-transform">
+              <svg class="w-6 h-6 fill-current" viewBox="0 0 24 24">
+                <path d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z"/>
+              </svg>
+            </div>
+            <div>
+              <div class="text-xs font-mono text-sky-400">LinkedIn Network</div>
+              <div class="font-display font-bold text-white text-base">/in/turjoybarai</div>
+            </div>
+          </div>
+          <span class="text-slate-400 group-hover:text-white group-hover:translate-x-1 transition-all">→</span>
+        </a>
+
+        <!-- 3. Direct Email -->
+        <a href="mailto:turjoybarai@startdaily.xyz" 
+           class="group bg-[#180F30]/80 hover:bg-[#180F30] p-6 rounded-2xl border border-white/[0.08] hover:border-[#AB50E1]/50 transition-all duration-300 shadow-glass flex items-center justify-between">
+          <div class="flex items-center gap-4">
+            <div class="w-12 h-12 rounded-xl bg-[#AB50E1]/10 border border-[#AB50E1]/30 flex items-center justify-center text-[#AB50E1] group-hover:scale-110 transition-transform">
+              <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"/>
+              </svg>
+            </div>
+            <div class="overflow-hidden">
+              <div class="text-xs font-mono text-purple-400">Official Email</div>
+              <div class="font-display font-bold text-white text-base truncate">turjoybarai@startdaily.xyz</div>
+            </div>
+          </div>
+          <span class="text-slate-400 group-hover:text-white group-hover:translate-x-1 transition-all">→</span>
+        </a>
+
+        <!-- 4. Save Contact .vcf -->
+        <button onclick="downloadVCard()" 
+                class="group bg-[#180F30]/80 hover:bg-[#180F30] p-6 rounded-2xl border border-white/[0.08] hover:border-[#FF436C]/50 transition-all duration-300 shadow-glass flex items-center justify-between text-left cursor-pointer w-full">
+          <div class="flex items-center gap-4">
+            <div class="w-12 h-12 rounded-xl bg-[#FF436C]/10 border border-[#FF436C]/30 flex items-center justify-center text-[#FF436C] group-hover:scale-110 transition-transform">
+              <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 6H5a2 2 0 00-2 2v9a2 2 0 002 2h14a2 2 0 002-2V8a2 2 0 00-2-2h-5m-4 0V5a2 2 0 114 0v1m-4 0a2 2 0 104 0m-5 8a2 2 0 100-4 2 2 0 000 4zm0 0c1.306 0 2.417.835 2.83 2M9 14a3.001 3.001 0 00-2.83 2M15 11h3m-3 4h2"/>
+              </svg>
+            </div>
+            <div>
+              <div class="text-xs font-mono text-rose-400">One-Tap Contact Card</div>
+              <div class="font-display font-bold text-white text-base">Download Turjoy_Barai.vcf</div>
+            </div>
+          </div>
+          <span class="text-slate-400 group-hover:text-white group-hover:translate-x-1 transition-all">↓</span>
+        </button>
+
+      </div>
+
+    </div>
+  </section>
+
+
+  <!-- =========================================================================
+       FOOTER
+       ========================================================================= -->
+  <footer class="relative z-20 py-12 bg-[#090612] border-t border-white/[0.06] text-center text-xs text-slate-400 font-mono">
+    <div class="max-w-7xl mx-auto px-4 flex flex-col sm:flex-row items-center justify-between gap-4">
+      <div class="flex items-center gap-2">
+        <img src="./assets/SD Logo Mark.png" alt="SD Mark" class="w-4 h-4 object-contain">
+        <span>© 2026 Turjoy Barai · Chief Business Officer at <a href="https://startdaily.xyz/" target="_blank" rel="noopener noreferrer" class="text-purple-300 hover:text-white underline">Start Daily (startdaily.xyz)</a></span>
+      </div>
+      <div class="flex items-center gap-4">
+        <a href="#hero" class="hover:text-white transition-colors">Back to Top ↑</a>
+      </div>
+    </div>
+  </footer>
+
+
+  <!-- =========================================================================
+       STICKY MOBILE QUICK-DOCK (Reveals when scrolled past Hero)
+       ========================================================================= -->
+  <aside id="mobile-quick-dock" 
+         class="fixed bottom-4 inset-x-4 z-40 lg:hidden pointer-events-none opacity-0 translate-y-6 transition-all duration-300">
+    <div class="max-w-md mx-auto bg-[#120A24]/90 backdrop-blur-2xl border border-white/15 rounded-2xl p-2 shadow-2xl flex items-center justify-between gap-2 pointer-events-auto">
+      
+      <!-- WhatsApp Quick Tap -->
+      <a href="https://wa.me/8801704672695?text=Hi%20Turjoy%2C%20great%20connecting%20with%20you!" 
+         target="_blank" rel="noopener noreferrer"
+         class="flex-1 py-2.5 px-3 rounded-xl bg-[#25D366]/20 border border-[#25D366]/30 text-white font-display font-bold text-xs flex items-center justify-center gap-1.5 active:scale-95 transition-all">
+        <svg class="w-4 h-4 fill-[#25D366]" viewBox="0 0 24 24">
+          <path d="M12.031 6.172c-3.181 0-5.767 2.586-5.768 5.766-.001 1.298.38 2.27 1.019 3.287l-.711 2.598 2.664-.699c.974.53 1.815.82 2.796.821h.005c3.18 0 5.767-2.586 5.768-5.766.001-3.18-2.585-5.767-5.773-5.773zm7.534 5.766c-.002 4.152-3.378 7.527-7.535 7.527-1.258 0-2.428-.316-3.473-.872l-4.557 1.195 1.218-4.444c-.663-1.121-1.024-2.39-1.023-3.406.002-4.153 3.378-7.528 7.536-7.528 4.156 0 7.534 3.375 7.534 7.528z"/>
+        </svg>
+        <span>WhatsApp</span>
+      </a>
+
+      <!-- Save Contact Quick Tap -->
+      <button onclick="downloadVCard()" 
+              class="flex-1 py-2.5 px-3 rounded-xl sd-gradient-bg text-white font-display font-bold text-xs flex items-center justify-center gap-1.5 shadow-glow-sd active:scale-95 transition-all cursor-pointer">
+        <svg class="w-4 h-4 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 16v1a3 3 0 003 3h10a3 3 0 003-3v-1m-4-4l-4 4m0 0l-4-4m4 4V4"/>
+        </svg>
+        <span>Save Contact</span>
+      </button>
+
+      <!-- LinkedIn Quick Tap -->
+      <a href="https://www.linkedin.com/in/turjoybarai/" 
+         target="_blank" rel="noopener noreferrer"
+         class="py-2.5 px-3.5 rounded-xl bg-white/[0.08] border border-white/10 text-white font-display font-semibold text-xs flex items-center justify-center active:scale-95 transition-all">
+        <svg class="w-4 h-4 fill-[#0A66C2]" viewBox="0 0 24 24">
+          <path d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z"/>
+        </svg>
+      </a>
+
+    </div>
+  </aside>
+
+
+  <!-- =========================================================================
+       TOAST NOTIFICATION COMPONENT
+       ========================================================================= -->
+  <div id="toast" class="fixed top-20 right-4 sm:right-8 z-50 pointer-events-none opacity-0 translate-y-[-10px] transition-all duration-300">
+    <div class="bg-[#180F30] border border-[#8F54DE]/50 text-white px-4 py-3 rounded-xl shadow-2xl flex items-center gap-3">
+      <div class="w-6 h-6 rounded-full bg-emerald-500/20 text-emerald-400 flex items-center justify-center text-xs">✓</div>
+      <div class="text-xs font-mono font-medium" id="toast-message">Contact saved to device!</div>
+    </div>
+  </div>
+
+
+  <!-- =========================================================================
+       JAVASCRIPT: CANVAS PHYSICS, VCARD & INTERACTIONS
+       ========================================================================= -->
+  <script>
+    /* -------------------------------------------------------------------------
+       1. NATIVE VCARD 3.0 GENERATOR
+       ------------------------------------------------------------------------- */
+    function downloadVCard() {
+      const vcard = [
+        'BEGIN:VCARD',
+        'VERSION:3.0',
+        'N:Barai;Turjoy;;;',
+        'FN:Turjoy Barai',
+        'NICKNAME:Turjoy',
+        'ORG:Start Daily',
+        'TITLE:Chief Business Officer',
+        'TEL;TYPE=CELL,VOICE,PREF:+8801704672695',
+        'EMAIL;TYPE=WORK,INTERNET,PREF:turjoybarai@startdaily.xyz',
+        'URL;TYPE=WORK:https://startdaily.xyz/',
+        'URL;TYPE=LINKEDIN:https://www.linkedin.com/in/turjoybarai/',
+        'ADR;TYPE=WORK,POSTAL,PARCEL:;;Mirpur;Dhaka;;;Bangladesh',
+        'NOTE:Co-Founder & CBO at Start Daily. Former VC-backed founder (COO @ LOOX). Turning bold ideas into scalable systems and predictable revenue.',
+        'REV:' + new Date().toISOString(),
+        'END:VCARD'
+      ].join('\r\n');
+
+      const blob = new Blob([vcard], { type: 'text/vcard;charset=utf-8;' });
+      const url = URL.createObjectURL(blob);
+      const link = document.createElement('a');
+      link.href = url;
+      link.setAttribute('download', 'Turjoy_Barai.vcf');
+      document.body.appendChild(link);
+      link.click();
+      document.body.removeChild(link);
+      URL.revokeObjectURL(url);
+
+      showToast('Turjoy_Barai.vcf downloaded! Ready to save to Contacts.');
+    }
+
+    function showToast(msg) {
+      const toast = document.getElementById('toast');
+      const toastMsg = document.getElementById('toast-message');
+      toastMsg.textContent = msg;
+      toast.classList.remove('opacity-0', 'translate-y-[-10px]');
+      toast.classList.add('opacity-100', 'translate-y-0');
+      setTimeout(() => {
+        toast.classList.remove('opacity-100', 'translate-y-0');
+        toast.classList.add('opacity-0', 'translate-y-[-10px]');
+      }, 3500);
+    }
+
+    /* -------------------------------------------------------------------------
+       3. STICKY MOBILE QUICK-DOCK SCROLL LISTENER
+       ------------------------------------------------------------------------- */
+    const mobileDock = document.getElementById('mobile-quick-dock');
+    window.addEventListener('scroll', () => {
+      const scrollPos = window.scrollY;
+      const heroThreshold = window.innerHeight * 0.55;
+      if (scrollPos > heroThreshold) {
+        mobileDock.classList.remove('opacity-0', 'translate-y-6', 'pointer-events-none');
+        mobileDock.classList.add('opacity-100', 'translate-y-0', 'pointer-events-auto');
+      } else {
+        mobileDock.classList.remove('opacity-100', 'translate-y-0', 'pointer-events-auto');
+        mobileDock.classList.add('opacity-0', 'translate-y-6', 'pointer-events-none');
+      }
+    }, { passive: true });
+
+    /* -------------------------------------------------------------------------
+       4. INTERACTIVE HERO CANVAS STAGE
+          - Volumetric rising violet/coral smoke behind portrait
+          - Turjoy Barai portrait with damped 3D wobble
+          - Animated liquid water reflection across bottom ~35% of viewport
+          - Floating bobbing SD Logo Mark with ripple reflection
+          - Mouse & touch reactive liquid ripples
+          - Scroll-linked dissolve transition into mist
+       ------------------------------------------------------------------------- */
+    const canvas = document.getElementById('hero-canvas');
+    const ctx = canvas.getContext('2d');
+
+    // Preload Local Assets
+    const imgTurjoy = new Image();
+    imgTurjoy.src = encodeURI('./assets/Turjoy Barai.png');
+
+    const imgLogoMark = new Image();
+    imgLogoMark.src = encodeURI('./assets/SD Logo Mark.png');
+
+    let assetsLoaded = 0;
+    const totalAssets = 2;
+    function assetDone() {
+      assetsLoaded++;
+    }
+    imgTurjoy.onload = assetDone;
+    imgLogoMark.onload = assetDone;
+
+    // Viewport dimensions & pixel ratio
+    let dpr = 1;
+    let width = 0;
+    let height = 0;
+
+    function resizeCanvas() {
+      dpr = Math.min(window.devicePixelRatio || 1, 2);
+      const rect = canvas.getBoundingClientRect();
+      width = rect.width;
+      height = rect.height;
+      canvas.width = Math.floor(width * dpr);
+      canvas.height = Math.floor(height * dpr);
+      ctx.setTransform(dpr, 0, 0, dpr, 0, 0);
+    }
+    window.addEventListener('resize', resizeCanvas);
+    resizeCanvas();
+
+    // Mouse & Gyroscope Parallax Tracking
+    let mouse = { x: width * 0.5, y: height * 0.5, targetX: width * 0.5, targetY: height * 0.5 };
+    let tilt = { x: 0, y: 0, targetX: 0, targetY: 0 };
+
+    window.addEventListener('mousemove', (e) => {
+      const rect = canvas.getBoundingClientRect();
+      mouse.targetX = e.clientX - rect.left;
+      mouse.targetY = e.clientY - rect.top;
+      
+      const normX = (e.clientX / window.innerWidth) * 2 - 1;
+      const normY = (e.clientY / window.innerHeight) * 2 - 1;
+      tilt.targetX = normX * 18; // degrees
+      tilt.targetY = normY * 12;
+
+      // Add soft ripples on mouse movement across the water region
+      const waterlineY = height * 0.65;
+      if (mouse.targetY > waterlineY - 20) {
+        addRipple(mouse.targetX, mouse.targetY, 0.4);
+      }
+    });
+
+    // Mobile Gyroscope / Device Tilt
+    if (window.DeviceOrientationEvent) {
+      window.addEventListener('deviceorientation', (e) => {
+        if (e.gamma !== null && e.beta !== null) {
+          tilt.targetX = Math.max(-20, Math.min(20, e.gamma * 0.6));
+          tilt.targetY = Math.max(-15, Math.min(15, (e.beta - 45) * 0.4));
+        }
+      });
+    }
+
+    // Touch & Click Interaction for Ripples
+    function triggerInteraction(clientX, clientY, strong = false) {
+      const rect = canvas.getBoundingClientRect();
+      const x = clientX - rect.left;
+      const y = clientY - rect.top;
+      mouse.targetX = x;
+      mouse.targetY = y;
+      addRipple(x, Math.max(height * 0.65 + 10, y), strong ? 1.0 : 0.6);
+    }
+
+    canvas.addEventListener('mousedown', (e) => triggerInteraction(e.clientX, e.clientY, true));
+    canvas.addEventListener('touchstart', (e) => {
+      if (e.touches.length > 0) {
+        triggerInteraction(e.touches[0].clientX, e.touches[0].clientY, true);
+      }
+    }, { passive: true });
+    canvas.addEventListener('touchmove', (e) => {
+      if (e.touches.length > 0) {
+        triggerInteraction(e.touches[0].clientX, e.touches[0].clientY, false);
+      }
+    }, { passive: true });
+
+    // Active Water Ripples
+    const ripples = [];
+    function addRipple(x, y, strength = 0.5) {
+      if (ripples.length > 18) ripples.shift();
+      ripples.push({
+        x: x,
+        y: y,
+        radius: 4,
+        maxRadius: 180 + strength * 100,
+        speed: 2.2 + strength * 1.5,
+        strength: strength,
+        opacity: strength * 0.85
+      });
+    }
+
+    // Volumetric Smoke Particles
+    const smokeColors = [
+      'rgba(143, 84, 222, ',  // Violet (#8F54DE)
+      'rgba(197, 73, 229, ',  // Magenta (#C549E5)
+      'rgba(255, 67, 108, ',  // Coral (#FF436C)
+      'rgba(254, 136, 64, ',  // Orange (#FE8840)
+      'rgba(57, 28, 96, ',    // Plum (#391C60)
+    ];
+
+    const smokeParticles = [];
+    const NUM_SMOKE = 42;
+    for (let i = 0; i < NUM_SMOKE; i++) {
+      smokeParticles.push({
+        x: Math.random() * width,
+        y: Math.random() * height * 0.8,
+        radius: 50 + Math.random() * 120,
+        vx: (Math.random() - 0.5) * 0.6,
+        vy: -0.35 - Math.random() * 0.65, // rising upward
+        colorBase: smokeColors[Math.floor(Math.random() * smokeColors.length)],
+        alpha: 0.12 + Math.random() * 0.28,
+        pulseSpeed: 0.015 + Math.random() * 0.02,
+        seed: Math.random() * Math.PI * 2
+      });
+    }
+
+    // Scroll Dissolve Tracking
+    let scrollFade = 1.0;
+    let scrollYOffset = 0;
+    window.addEventListener('scroll', () => {
+      const scrollY = window.scrollY;
+      const heroHeight = window.innerHeight;
+      scrollFade = Math.max(0, 1 - (scrollY / (heroHeight * 0.75)));
+      scrollYOffset = scrollY;
+    }, { passive: true });
+
+    // Main Animation Loop
+    let time = 0;
+
+    function render() {
+      time += 0.025;
+
+      // Smooth damped wobble/tilt interpolation
+      tilt.x += (tilt.targetX - tilt.x) * 0.08;
+      tilt.y += (tilt.targetY - tilt.y) * 0.08;
+      mouse.x += (mouse.targetX - mouse.x) * 0.08;
+      mouse.y += (mouse.targetY - mouse.y) * 0.08;
+
+      ctx.clearRect(0, 0, width, height);
+
+      // 1. Dynamic Responsive Layout for Turjoy's Portrait & Waterline
+      // Ensures Turjoy's entire image (head to waist) is 100% visible with zero cut-off on both web & mobile!
+      const isMobile = width < 1024;
+      const portraitNaturalW = 1672;
+      const portraitNaturalH = 2659;
+      const portraitAspect = portraitNaturalW / portraitNaturalH; // ~0.6288
+
+      let portraitH, portraitW, portraitX, portraitY, waterlineY;
+
+      if (isMobile) {
+        // Mobile Layout:
+        // Measure exact bottom of top header text so Turjoy's head starts comfortably below it with zero overlap
+        const topHeaderEl = document.getElementById('hero-top-header');
+        let topClearance = 250;
+        if (topHeaderEl) {
+          const rect = topHeaderEl.getBoundingClientRect();
+          const heroRect = canvas.getBoundingClientRect();
+          topClearance = Math.max(220, (rect.bottom - heroRect.top) + 12);
+        }
+
+        // Waterline sits comfortably at ~74% of viewport height
+        waterlineY = Math.max(topClearance + 190, Math.floor(height * 0.74));
+
+        // Available vertical slot between top header and waterline
+        const maxAllowedH = waterlineY - topClearance - 8;
+        portraitH = Math.min(maxAllowedH, Math.floor(height * 0.40));
+        portraitH = Math.max(180, portraitH);
+        portraitW = portraitH * portraitAspect;
+
+        // Keep width comfortably within mobile screen bounds
+        if (portraitW > width * 0.82) {
+          portraitW = width * 0.82;
+          portraitH = portraitW / portraitAspect;
+        }
+
+        portraitX = (width - portraitW) * 0.5 + (tilt.x * 0.2);
+        // Strictly lock waist to the waterline plane at all times (never floats on scroll)
+        portraitY = waterlineY - portraitH + 3;
+      } else {
+        // Desktop Layout (width >= 1024px):
+        // Top safe margin ensures Turjoy's head has generous breathing room below the 64px navbar!
+        const topSafeY = Math.max(80, Math.floor(height * 0.08));
+
+        // Waterline sits comfortably at ~68% of screen height
+        waterlineY = Math.floor(height * 0.68);
+
+        // Portrait height fits cleanly between topSafeY and waterlineY so head is NEVER cut off!
+        const maxAllowedH = waterlineY - topSafeY;
+        portraitH = Math.min(maxAllowedH, Math.min(height * 0.65, 620));
+        portraitW = portraitH * portraitAspect;
+
+        // Strictly lock waist to the waterline plane (3px submerged, no scroll drift)
+        portraitY = waterlineY - portraitH + 3;
+
+        // Positioned proudly on the right side with breathing room from left column
+        portraitX = width * 0.64 - (portraitW * 0.5) + (tilt.x * 0.4);
+      }
+
+      // 2. Base Cosmic Gradient Fill
+      const bgGrad = ctx.createLinearGradient(0, 0, 0, height);
+      bgGrad.addColorStop(0, '#090612');
+      bgGrad.addColorStop(0.65, '#120A24');
+      bgGrad.addColorStop(1, '#090612');
+      ctx.fillStyle = bgGrad;
+      ctx.fillRect(0, 0, width, height);
+
+      // 3. Render Volumetric Rising Violet/Coral Smoke Particles
+      ctx.save();
+      for (let i = 0; i < smokeParticles.length; i++) {
+        const p = smokeParticles[i];
+        p.y += p.vy;
+        p.x += p.vx + Math.sin(time + p.seed) * 0.45;
+        p.seed += p.pulseSpeed;
+
+        // Wrap particles when they rise above top or dissolve
+        if (p.y + p.radius < 0) {
+          p.y = waterlineY + Math.random() * 50;
+          p.x = width * 0.2 + Math.random() * (width * 0.6);
+        }
+
+        const currentAlpha = p.alpha * (0.8 + 0.2 * Math.sin(p.seed)) * scrollFade;
+        if (currentAlpha <= 0) continue;
+
+        const smokeGrad = ctx.createRadialGradient(p.x, p.y, 0, p.x, p.y, p.radius);
+        smokeGrad.addColorStop(0, p.colorBase + currentAlpha + ')');
+        smokeGrad.addColorStop(0.5, p.colorBase + (currentAlpha * 0.4) + ')');
+        smokeGrad.addColorStop(1, p.colorBase + '0)');
+
+        ctx.fillStyle = smokeGrad;
+        ctx.beginPath();
+        ctx.arc(p.x, p.y, p.radius, 0, Math.PI * 2);
+        ctx.fill();
+      }
+      ctx.restore();
+
+      // Upright Portrait Alpha & Dissolve Transition (Fades in place on scroll)
+      const portraitAlpha = scrollFade;
+
+      // 4. Large Atmospheric Start Daily Logo Mark (Monumental Emblem behind Turjoy's Upper Torso/Shoulders)
+      // Enlarge 2x-2.5x (~1.95x portraitW) and shift horizontally to the right behind left shoulder/arm
+      const bgMarkSize = Math.floor(portraitW * 1.95);
+      const bgMarkCenterX = Math.floor(portraitX + portraitW * 0.68 + (tilt.x * 0.3));
+      const bgMarkX = Math.floor(bgMarkCenterX - bgMarkSize * 0.5);
+      const bgMarkCenterY = Math.floor(portraitY + portraitH * 0.40 + Math.sin(time * 1.2) * 7);
+      const bgMarkY = Math.floor(bgMarkCenterY - bgMarkSize * 0.5);
+
+      if (imgLogoMark.complete && imgLogoMark.naturalWidth > 0 && portraitAlpha > 0.01) {
+        ctx.save();
+        ctx.globalAlpha = 0.20 * portraitAlpha;
+        ctx.shadowColor = '#AB50E1';
+        ctx.shadowBlur = 45;
+        ctx.drawImage(imgLogoMark, bgMarkX, bgMarkY, bgMarkSize, bgMarkSize);
+        ctx.restore();
+      }
+
+      // 5. Draw Upright Portrait (Anchored strictly to waterline, head 100% visible)
+      if (imgTurjoy.complete && imgTurjoy.naturalWidth > 0 && portraitAlpha > 0.01) {
+        ctx.save();
+        ctx.globalAlpha = portraitAlpha;
+        ctx.drawImage(imgTurjoy, portraitX, portraitY, portraitW, portraitH);
+        ctx.restore();
+      }
+
+      // 6. ANIMATED WATER SURFACE & LIQUID MIRROR REFLECTION
+      const waterHeight = Math.max(10, height - waterlineY);
+
+      // Deep water surface fill with Fresnel gradient
+      const waterGrad = ctx.createLinearGradient(0, waterlineY, 0, height);
+      waterGrad.addColorStop(0, 'rgba(18, 10, 36, 0.88)');
+      waterGrad.addColorStop(0.3, 'rgba(12, 7, 24, 0.94)');
+      waterGrad.addColorStop(1, '#090612');
+      ctx.fillStyle = waterGrad;
+      ctx.fillRect(0, waterlineY, width, waterHeight);
+
+      // Soft horizon mist seam along the waterline over Turjoy's waist
+      if (portraitAlpha > 0.01) {
+        const seamGrad = ctx.createLinearGradient(0, waterlineY - 6, 0, waterlineY + 8);
+        seamGrad.addColorStop(0, 'rgba(18, 10, 36, 0)');
+        seamGrad.addColorStop(0.5, 'rgba(18, 10, 36, ' + (0.75 * portraitAlpha) + ')');
+        seamGrad.addColorStop(1, 'rgba(18, 10, 36, ' + (0.95 * portraitAlpha) + ')');
+        ctx.fillStyle = seamGrad;
+        ctx.fillRect(portraitX - 25, waterlineY - 6, portraitW + 50, 14);
+      }
+
+      // Update Active Ripples Physics
+      for (let i = ripples.length - 1; i >= 0; i--) {
+        const r = ripples[i];
+        r.radius += r.speed;
+        r.opacity *= 0.965;
+        r.strength *= 0.965;
+        if (r.opacity < 0.01 || r.radius > r.maxRadius) {
+          ripples.splice(i, 1);
+        }
+      }
+
+      // Sliced Water Reflection Rendering (60fps liquid displacement of Turjoy Barai)
+      if (imgTurjoy.complete && imgTurjoy.naturalWidth > 0 && portraitAlpha > 0.01) {
+        ctx.save();
+
+        // Clip to water area so reflection never bleeds above waterline
+        ctx.beginPath();
+        ctx.rect(0, waterlineY, width, waterHeight);
+        ctx.clip();
+
+        const sliceH = isMobile ? 3 : 2; // Horizontal strip height in px
+        const totalSlices = Math.ceil(waterHeight / sliceH);
+
+        for (let s = 0; s < totalSlices; s++) {
+          const dy = s * sliceH;
+          const currentY = waterlineY + dy;
+          const depthRatio = dy / waterHeight; // 0 (waterline) to 1 (deep bottom)
+
+          // Liquid Wave Displacement (harmonic waves)
+          let waveOffset = Math.sin(dy * 0.045 + time * 2.8) * (4 + depthRatio * 9)
+                         + Math.cos(dy * 0.09 - time * 1.8) * 2.5;
+
+          // Add Dynamic Cursor / Touch Ripple Displacement
+          for (let rIdx = 0; rIdx < ripples.length; rIdx++) {
+            const rip = ripples[rIdx];
+            const distY = Math.abs(currentY - rip.y);
+            const ringDist = Math.abs(distY - rip.radius);
+            if (ringDist < 25) {
+              const ripWave = Math.sin((ringDist / 25) * Math.PI) * rip.strength * 12;
+              waveOffset += ripWave;
+            }
+          }
+
+          // Corresponding slice in upright portrait (flipped vertically with strict clamping)
+          const perspectiveCompression = 1.0 + depthRatio * 0.35;
+          const srcSliceScale = (portraitNaturalH / (portraitH / sliceH)) * perspectiveCompression;
+          let srcSliceY = Math.floor(portraitNaturalH - ((s + 1) * srcSliceScale));
+          let srcSliceHeight = Math.ceil(srcSliceScale);
+
+          if (srcSliceY < 0) {
+            srcSliceHeight += srcSliceY;
+            srcSliceY = 0;
+          }
+          if (srcSliceHeight > 0 && srcSliceY < portraitNaturalH) {
+            if (srcSliceY + srcSliceHeight > portraitNaturalH) {
+              srcSliceHeight = portraitNaturalH - srcSliceY;
+            }
+            if (srcSliceHeight > 0) {
+              // Attenuation: reflection fades with depth into dark water
+              const reflectionAlpha = Math.max(0, (1 - depthRatio * 0.88) * 0.72 * portraitAlpha);
+              ctx.globalAlpha = reflectionAlpha;
+
+              ctx.drawImage(
+                imgTurjoy,
+                0, srcSliceY, portraitNaturalW, srcSliceHeight,
+                portraitX + waveOffset, currentY, portraitW, sliceH
+              );
+            }
+          }
+        }
+        ctx.restore();
+      }
+
+      // Faint Reflection of Enlarged Background Start Daily Logo Mark in the Water
+      if (imgLogoMark.complete && imgLogoMark.naturalWidth > 0 && portraitAlpha > 0.01) {
+        ctx.save();
+        ctx.beginPath();
+        ctx.rect(0, waterlineY, width, waterHeight);
+        ctx.clip();
+
+        const markDistFromWater = waterlineY - bgMarkCenterY;
+        const markReflectY = waterlineY + markDistFromWater * 0.65;
+        const markWave = Math.sin(time * 2.2) * 5;
+
+        ctx.globalAlpha = 0.08 * portraitAlpha;
+        ctx.shadowColor = '#8F54DE';
+        ctx.shadowBlur = 30;
+        ctx.translate(bgMarkCenterX + markWave, markReflectY);
+        ctx.scale(1, -0.65); // flipped and compressed
+        ctx.drawImage(imgLogoMark, -bgMarkSize / 2, -bgMarkSize / 2, bgMarkSize, bgMarkSize);
+        ctx.restore();
+      }
+
+      // 7. Render Concentric Ripple Rings on Water Surface
+      ctx.save();
+      for (let i = 0; i < ripples.length; i++) {
+        const r = ripples[i];
+        if (r.y + r.radius * 0.4 < waterlineY) continue; // Only visible in water
+
+        ctx.save();
+        ctx.beginPath();
+        // Elliptical perspective for ripples on flat water surface
+        ctx.ellipse(r.x, r.y, r.radius, r.radius * 0.38, 0, 0, Math.PI * 2);
+        ctx.strokeStyle = 'rgba(197, 73, 229, ' + (r.opacity * 0.65) + ')';
+        ctx.lineWidth = 1.8;
+        ctx.stroke();
+
+        // Inner glowing crest
+        ctx.beginPath();
+        ctx.ellipse(r.x, r.y, Math.max(0, r.radius - 8), Math.max(0, (r.radius - 8) * 0.38), 0, 0, Math.PI * 2);
+        ctx.strokeStyle = 'rgba(255, 67, 108, ' + (r.opacity * 0.45) + ')';
+        ctx.lineWidth = 1.0;
+        ctx.stroke();
+        ctx.restore();
+      }
+      ctx.restore();
+
+      // 8. Waterline Shimmering Horizon Boundary & Specular Glints
+      ctx.save();
+      const waterlineGrad = ctx.createLinearGradient(0, 0, width, 0);
+      waterlineGrad.addColorStop(0, 'rgba(143, 84, 222, 0)');
+      waterlineGrad.addColorStop(0.3, 'rgba(143, 84, 222, 0.45)');
+      waterlineGrad.addColorStop(0.5, 'rgba(255, 67, 108, 0.7)');
+      waterlineGrad.addColorStop(0.7, 'rgba(254, 136, 64, 0.45)');
+      waterlineGrad.addColorStop(1, 'rgba(254, 136, 64, 0)');
+
+      ctx.strokeStyle = waterlineGrad;
+      ctx.lineWidth = 1.5;
+      ctx.beginPath();
+      ctx.moveTo(0, waterlineY);
+      // Gentle sine undulation along the boundary
+      for (let x = 0; x <= width; x += 30) {
+        const waveBoundary = Math.sin(x * 0.015 + time * 2.0) * 1.5;
+        ctx.lineTo(x, waterlineY + waveBoundary);
+      }
+      ctx.stroke();
+
+      // Soft ambient water crest sparkles
+      for (let s = 1; s <= 4; s++) {
+        const glintY = waterlineY + s * (waterHeight * 0.18);
+        const glintX = ((Math.sin(time * 0.8 + s * 1.7) * 0.4 + 0.5) * width);
+        const glintGrad = ctx.createRadialGradient(glintX, glintY, 0, glintX, glintY, 35);
+        glintGrad.addColorStop(0, 'rgba(255, 108, 89, 0.3)');
+        glintGrad.addColorStop(1, 'rgba(255, 108, 89, 0)');
+        ctx.fillStyle = glintGrad;
+        ctx.fillRect(glintX - 35, glintY - 6, 70, 12);
+      }
+      ctx.restore();
+
+      requestAnimationFrame(render);
+    }
+
+    // Start loop immediately
+    requestAnimationFrame(render);
+  </script>
+</body>
+</html>
